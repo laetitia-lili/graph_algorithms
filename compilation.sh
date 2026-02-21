@@ -11,4 +11,5 @@ echo "Compilation terminée ✅"
 ./mon_programme
 
 /opt/homebrew/bin/dot -Tpng graph.dot -o graph.png
-open graph.png
+[ -f graph.dot ]   && /opt/homebrew/bin/dot -Tpng graph.dot   -o graph.png   && open graph.png
+[ -f digraph.dot ] && /opt/homebrew/bin/dot -Tpng digraph.dot -o digraph.png && open digraph.png
