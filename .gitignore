@@ -1,0 +1,4 @@
+*.dot
+*.png
+obj/
+mon_programme
