@@ -1,3 +1,5 @@
+<div align="center"> <image src="GraphViz.PNG" alt="Description"> </div>
+
 # 📊 Graph Algorithms en C
 
 Implémentation de graphes en C avec visualisation via **Graphviz**. Le projet permet de créer des graphes orientés et non orientés, d'ajouter des arêtes et de les visualiser automatiquement.
